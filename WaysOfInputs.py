@@ -14,6 +14,9 @@
 #for comma separated input
     raw_input_data = sys.stdin.read().strip()
 
+#claude recc
+dataset = ast.literal_eval(sys.stdin.read())
+
 # for input format:
 '''
 {}
@@ -28,7 +31,6 @@
             dataset.append(record)
 
     return dataset
-
 
 # BEST WAY
 data=[]
