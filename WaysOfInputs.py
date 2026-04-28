@@ -28,3 +28,11 @@
             dataset.append(record)
 
     return dataset
+
+
+# another way for some inputs
+data=[]
+for line in sys.stdin:
+    line = line.strip()
+    if line:
+        data.append(ast.literal_eval(line))
