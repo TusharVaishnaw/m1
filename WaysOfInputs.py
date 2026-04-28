@@ -30,7 +30,7 @@
     return dataset
 
 
-# another way for some inputs
+# BEST WAY
 data=[]
 for line in sys.stdin:
     line = line.strip()
